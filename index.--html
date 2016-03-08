@@ -40,7 +40,7 @@
 						<span class="line">dicta optio voluptatem. Fuga, a nemo </span>
 						<div class="expander inset" data-for="123">
 							<p>
-							Текст между строчек. Крутота!
+							Привет, меня зовут Алексей.
 							</p>
 						</div>
 						<div class="expander inset" data-for="1235">
@@ -60,7 +60,7 @@
 						<span class="line">eos fugiat officiis eveniet veritatis </span>
 						<div class="expander inset" data-for="365">
 							<p>
-							Тут тоже что-то написано...
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam impedit deserunt velit quasi aut magnam vitae repudiandae, numquam eum. Repellat minima odio, alias fugiat architecto veniam tempore earum vero iste.
 							</p>
 						</div>
 						<span class="line">sequi cum modi 
@@ -108,7 +108,7 @@
 		</section>
 
 	</main>
-<!-- 
+
 	<footer class="main-footer">
 	    <section class="info">
 	        Alexey Leonov, lausnest@gmail.com
@@ -117,7 +117,7 @@
 	        © 2016 Lau Kye
 	    </section>
 	</footer>
-	 -->
+	
 
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
