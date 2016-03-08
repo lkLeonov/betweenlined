@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+}
+
+body {
+		background-color: #fafafa;
+    overflow-y: scroll;
+    color: #505050;
+}
+
+.main-header {
+
+}
+
+	.main-header h1 {
+		text-align: center;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+	}
+
+.main-content {
+
+}
+	.main-inner {
+		width: 500px;
+		background: #FFFFFF;
+		margin: 0 auto;
+		box-shadow: 0 0 10px 0;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		transition: all 0.2s ease-in-out;
+	}
+
+	  .posts-container {
+	  	/*remove all*/
+	  }
+
+		  .post {
+		  	font-family: 'Raleway', Arial;
+		  	margin-bottom: 2em;
+		  	padding: .8em 0;
+		  }
+
+				.post-header {
+					text-align: center;
+					font-size: 1.6em;
+				}
+
+					.post header h1 {
+						font-size: 1.6em;
+						border-left: 4px solid white;
+						/* background-color: #FAFAFA; */
+						/* color: black; */
+						margin: 0;
+					}
+
+						.post header a {
+							color: white;
+							text-decoration: none;
+							color: #505050;
+						}
+
+				.post-content {
+					/*remove all*/
+				}
+
+					.post .line {
+						display: block;
+						margin: 0 auto;
+						width: 300px;
+						width: 340px;
+						padding-left: 50px;
+					}
+
+						.post .line:first-of-type:first-letter{
+							font-size: 200%;
+						}
+
+					.post .expander {
+						display: none;
+						text-align: right;
+						padding: .5em 0;
+						font-family: initial;
+						font-size: 1.2em;
+						width: 98%;
+						line-height: .9em;
+						border-right: 4px solid rgba(80, 80, 80, 0.4);
+						background: #9E9E9E;
+						color: white;
+						margin: .3em -40px;
+						box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+					}
+
+					  .post .expander p {
+					  	max-width: 450px;
+					  	margin: 0 auto;
+					  }
+
+				  .post .opener {
+				  	cursor: pointer;
+				  	border-bottom: 1px solid;
+				  	color: #DC3B3B;
+				  	font-weight: bold;
+				  	color: #CC0000;
+				  }
+
+.main-footer {
+	margin-top: 10px;
+	text-align: right;
+	color: darkgrey;
+	font-family: monospace;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
